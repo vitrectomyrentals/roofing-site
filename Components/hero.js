@@ -79,21 +79,21 @@ export default function Hero() {
             <div className="flex justify-center mb-10">
               <div className="inline-flex items-center rounded-full bg-purple-100/90 px-6 py-2.5">
                 <span className="flex items-center gap-2 text-base font-semibold text-purple-900">
-                  🏆 Canada&apos;s Top Choice For Recovery Rentals
+                  🏆 Canada&apos;s Top Choice For Quality Roofing
                 </span>
               </div>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-5xl sm:text-5xl lg:text-6xl font-bold text-white max-w-4xl mx-auto mb-8 leading-tight">
-              Vitrectomy Recovery Equipment
+              Blue Roofs
             </h1>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-purple-100 max-w-2xl mx-auto mb-10 leading-relaxed">
-              Don&apos;t Risk Your Eyesight.
+              We install, replace, and repair roofs across the GTA with craftsmanship you can trust.
               <br />
-              Do It Right With Vitrectomy Rentals.
+              Do It Right With Blue Roofs.
             </p>
 
             <div className="max-w-xl mx-auto mb-12">
