@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useMemo, useRef } from "react";
+import Image from 'next/image';
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { MapPin, Phone } from "lucide-react";
