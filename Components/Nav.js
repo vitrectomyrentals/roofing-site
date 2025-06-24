@@ -140,7 +140,7 @@ export default function Nav() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/roof-icon.png" alt="Roof Icon" width={30} height={30} />
+              <Image src="/roof-icons.png" alt="Roof Icon" width={30} height={30} />
               <span className="text-xl font-semibold text-purple-900">
                 Blue Roofs
               </span>
