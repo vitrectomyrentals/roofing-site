@@ -7,7 +7,7 @@ import { MapPin, Phone } from "lucide-react";
 
 const navLinks = [
   { name: "Home", path: "/" },
-  { name: "Vitrectomy Rentals", path: "/vitrectomy-rentals" },
+  { name: "Roofs", path: "/vitrectomy-rentals" },
   { name: "Pricing", path: "/price" },
   { name: "FAQ", path: "/faq" },
   { name: "Contact", path: "/contact-us" },
@@ -139,9 +139,9 @@ export default function Nav() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-2xl">👁️</span>
+              <Image src="/roof-icon.png" alt="Roof Icon" width={30} height={30} />
               <span className="text-xl font-semibold text-purple-900">
-                Vitrectomy Rentals
+                Blue Roofs
               </span>
             </Link>
 
