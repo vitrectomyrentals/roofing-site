@@ -12,14 +12,14 @@ const bundlePrices = createBundleData("$350", "$420", "$490");
 const PricingCard = ({ period, price }) => (
   <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
     <h3 className="text-xl font-medium text-gray-800 mb-4">{period}</h3>
-    <p className="text-4xl font-bold text-purple-600 mb-2">{price}</p>
+    <p className="text-4xl font-bold text-blue-600 mb-2">{price}</p>
     <p className="text-sm text-gray-500">per bundle</p>
   </div>
 );
 
 export default function Prices() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 via-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-blue-50">
       <Head>
         <title>Pricing | Vitrectomy Rentals</title>
         <meta
@@ -67,7 +67,7 @@ export default function Prices() {
       <div className="container mx-auto px-4 py-16 max-w-6xl">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-purple-600 mb-6">
+          <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-600 mb-6">
             Pricing Options
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -79,7 +79,7 @@ export default function Prices() {
         {/* Bundle Showcase */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-20">
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-purple-400 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
             <div className="relative bg-white rounded-lg shadow-xl overflow-hidden">
               <Image
                 src="/a.jpg"
@@ -96,12 +96,12 @@ export default function Prices() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-purple-100">
-            <span className="text-3xl font-bold text-purple-600">+</span>
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100">
+            <span className="text-3xl font-bold text-blue-600">+</span>
           </div>
 
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-purple-400 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
             <div className="relative bg-white rounded-lg shadow-xl overflow-hidden">
               <Image
                 src="/b.JPG"
@@ -121,9 +121,9 @@ export default function Prices() {
 
         {/* Special Offer and Pricing */}
         <div className="relative mb-20">
-          <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-purple-400 rounded-xl blur opacity-75"></div>
+          <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-xl blur opacity-75"></div>
           <div className="relative bg-white rounded-xl shadow-xl p-10">
-            <h2 className="text-4xl font-bold text-purple-800 text-center mb-6">
+            <h2 className="text-4xl font-bold text-blue-800 text-center mb-6">
               Special Bundle Offer!
             </h2>
             <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-8">
@@ -142,9 +142,9 @@ export default function Prices() {
           </div>
         </div>
         {/* Complimentary Add-Ons */}
-        <div className="relative bg-purple-50 rounded-lg p-8 mb-16 shadow-md">
+        <div className="relative bg-blue-50 rounded-lg p-8 mb-16 shadow-md">
           <div className="text-center mb-8">
-            <h3 className="text-3xl font-bold text-purple-800">
+            <h3 className="text-3xl font-bold text-blue-800">
               Complimentary Add-Ons
             </h3>
             <p className="text-gray-600 text-sm">
@@ -167,7 +167,7 @@ export default function Prices() {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <svg
-                    className="w-5 h-5 text-purple-600 flex-shrink-0 mr-3"
+                    className="w-5 h-5 text-blue-600 flex-shrink-0 mr-3"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -180,7 +180,7 @@ export default function Prices() {
                 </li>
                 <li className="flex items-start">
                   <svg
-                    className="w-5 h-5 text-purple-600 flex-shrink-0 mr-3"
+                    className="w-5 h-5 text-blue-600 flex-shrink-0 mr-3"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -193,7 +193,7 @@ export default function Prices() {
                 </li>
                 <li className="flex items-start">
                   <svg
-                    className="w-5 h-5 text-purple-600 flex-shrink-0 mr-3"
+                    className="w-5 h-5 text-blue-600 flex-shrink-0 mr-3"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -209,14 +209,14 @@ export default function Prices() {
           </div>
         </div>
         {/* Call to Reserve */}
-        <div className="relative bg-gradient-to-r from-purple-600 to-purple-800 p-6 rounded-lg shadow-lg text-center mx-auto max-w-md">
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-white text-purple-600 font-bold text-sm px-3 py-1 rounded-full shadow">
+        <div className="relative bg-gradient-to-r from-blue-600 to-blue-800 p-6 rounded-lg shadow-lg text-center mx-auto max-w-md">
+          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-white text-blue-600 font-bold text-sm px-3 py-1 rounded-full shadow">
             We’re here to help!
           </div>
           <h3 className="text-xl font-bold text-white mb-4">
             Need Assistance?
           </h3>
-          <p className="text-purple-200 text-sm mb-6">
+          <p className="text-blue-200 text-sm mb-6">
             Contact us now to reserve your recovery equipment or get answers to
             your questions!
           </p>

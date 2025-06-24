@@ -45,7 +45,7 @@ export default function Footer() {
                 <h3 className="text-lg font-bold text-gray-900">
                   VitrectomyRentals.ca
                 </h3>
-                <p className="text-sm text-purple-600">
+                <p className="text-sm text-blue-600">
                   Recovery Equipment Specialists
                 </p>
               </div>
@@ -69,13 +69,13 @@ export default function Footer() {
             
             {/* North York Office */}
             <div className="space-y-2">
-              <h5 className="text-md font-medium text-purple-600">North York Office</h5>
+              <h5 className="text-md font-medium text-blue-600">North York Office</h5>
               <p className="text-sm text-gray-600">50 George Butchart Dr</p>
               <p className="text-sm text-gray-600">North York, ON M3K 0C9</p>
               <p className="text-sm text-gray-600">8:00 AM - 8:00 PM</p>
               <a 
                 href="tel:2896339933"
-                className="text-sm text-purple-600 hover:text-purple-800 transition-colors"
+                className="text-sm text-blue-600 hover:text-blue-800 transition-colors"
               >
                 (289) 633-9933
               </a>
@@ -86,7 +86,7 @@ export default function Footer() {
               href="https://maps.app.goo.gl/hgAWUviuJpC1CoNFA" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 text-sm text-purple-600 hover:text-purple-800"
+              className="inline-flex items-center space-x-2 text-sm text-blue-600 hover:text-blue-800"
             >
               <span>View on Google Maps</span>
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -103,7 +103,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/price"
-                  className="text-gray-600 hover:text-purple-600 transition-colors text-sm"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm"
                 >
                   Equipment Pricing
                 </Link>
@@ -111,7 +111,7 @@ export default function Footer() {
  <li>
                 <Link
                   href="/price"
-                  className="text-gray-600 hover:text-purple-600 transition-colors text-sm"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm"
                 >
              Benefits of Face Down Equipment
                 </Link>
@@ -119,7 +119,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/faq"
-                  className="text-gray-600 hover:text-purple-600 transition-colors text-sm"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm"
                 >
                   FAQs
                 </Link>
@@ -127,7 +127,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact-us"
-                  className="text-gray-600 hover:text-purple-600 transition-colors text-sm"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm"
                 >
                   Contact Us
                 </Link>

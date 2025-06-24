@@ -45,7 +45,7 @@ export default function Hero() {
   const getNextIndex = (current) => (current + 1) % images.length;
 
   return (
-    <div className="relative min-h-[100%] w-full bg-gradient-to-br from-black to-purple-900">
+    <div className="relative min-h-[100%] w-full bg-gradient-to-br from-black to-blue-900">
       <div className="h-[100%] grid grid-cols-1 lg:grid-cols-[1fr_2fr_1fr]">
         {/* Left Slider - Desktop Only */}
         <div className="hidden lg:block relative overflow-hidden">
@@ -69,7 +69,7 @@ export default function Hero() {
               </div>
             ))}
           </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-900/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-transparent" />
         </div>
 
         {/* Center Content */}
@@ -77,8 +77,8 @@ export default function Hero() {
           <div className="w-full max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-16 lg:py-20">
             {/* Badge */}
             <div className="flex justify-center mb-10">
-              <div className="inline-flex items-center rounded-full bg-purple-100/90 px-6 py-2.5">
-                <span className="flex items-center gap-2 text-base font-semibold text-purple-900">
+              <div className="inline-flex items-center rounded-full bg-blue-100/90 px-6 py-2.5">
+                <span className="flex items-center gap-2 text-base font-semibold text-blue-900">
                   🏆 Canada&apos;s Top Choice For Quality Roofing
                 </span>
               </div>
@@ -90,7 +90,7 @@ export default function Hero() {
             </h1>
 
             {/* Subheading */}
-            <p className="text-xl sm:text-2xl text-purple-100 max-w-2xl mx-auto mb-10 leading-relaxed">
+            <p className="text-xl sm:text-2xl text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed">
               We install, replace, and repair roofs across the GTA with craftsmanship you can trust.
               <br />
               Do It Right With Blue Roofs.
@@ -105,8 +105,8 @@ export default function Hero() {
               <Link
                 href="/#price"
                 className="flex-1 inline-flex items-center justify-center rounded-lg bg-white 
-                  px-8 py-4 text-lg font-semibold text-purple-900 transition-all duration-300 
-                  hover:bg-purple-50 hover:-translate-y-0.5"
+                  px-8 py-4 text-lg font-semibold text-blue-900 transition-all duration-300 
+                  hover:bg-blue-50 hover:-translate-y-0.5"
               >
                 Bed + Chair Packages
                 <ArrowRight className="ml-3 h-5 w-5" />
@@ -130,30 +130,30 @@ export default function Hero() {
                   className="flex items-center space-x-3 justify-center"
                 >
                   <CheckCircle
-                    className="h-5 w-5 text-purple-300"
+                    className="h-5 w-5 text-blue-300"
                     strokeWidth={2.5}
                   />
-                  <span className="text-lg text-purple-100">{feature}</span>
+                  <span className="text-lg text-blue-100">{feature}</span>
                 </div>
               ))}
             </div>
 
             {/* Recovery Types Section */}
             <div className="max-w-3xl mx-auto">
-              <p className="text-base text-purple-100 text-center mb-4">
+              <p className="text-base text-blue-100 text-center mb-4">
                 Recovery Equipment For:
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {recoveryTypes.map((type, index) => (
                   <div
                     key={index}
-                    className="bg-purple-800/30 backdrop-blur-sm rounded-xl p-4 border border-purple-700/30
-                      transition-all duration-300 hover:bg-purple-800/40 hover:border-purple-700/40"
+                    className="bg-blue-800/30 backdrop-blur-sm rounded-xl p-4 border border-blue-700/30
+                      transition-all duration-300 hover:bg-blue-800/40 hover:border-blue-700/40"
                   >
                     <div className="text-lg font-medium text-white mb-1">
                       {type.name}
                     </div>
-                    <div className="text-sm text-purple-200/80">
+                    <div className="text-sm text-blue-200/80">
                       {type.desc}
                     </div>
                   </div>
@@ -189,7 +189,7 @@ export default function Hero() {
                 </div>
               ))}
             </div>
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-900 via-purple-900/90 to-transparent lg:from-transparent lg:via-purple-900/20 lg:to-purple-900/40" />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-900/90 to-transparent lg:from-transparent lg:via-blue-900/20 lg:to-blue-900/40" />
           </div>
         </div>
       </div>

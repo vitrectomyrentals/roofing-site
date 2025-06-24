@@ -215,7 +215,7 @@ export default function Index({ title, description }) {
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="relative mx-auto max-w-4xl text-center" id="price">
               <div className="mb-8 rounded-2xl bg-white/80 p-6 shadow-lg backdrop-blur-md">
-                <span className="mb-4 inline-block rounded-full bg-purple-100 px-4 py-1.5 text-sm font-medium text-purple-800">
+                <span className="mb-4 inline-block rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-800">
                   Recovery Packages
                 </span>
                 <h2 className="mt-3 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -231,7 +231,7 @@ export default function Index({ title, description }) {
             {/* Bundle Visualization */}
 
             {/* Special Bundle Banner */}
-            <div className="mx-auto mb-12 max-w-4xl rounded-lg bg-purple-700 px-4 py-4 text-center text-white shadow-md">
+            <div className="mx-auto mb-12 max-w-4xl rounded-lg bg-blue-700 px-4 py-4 text-center text-white shadow-md">
               <h3 className="mb-2 text-2xl font-semibold">
                 Special Bundle Offer!
               </h3>
@@ -249,7 +249,7 @@ export default function Index({ title, description }) {
                   key={pkg.name}
                   className={`relative rounded-3xl bg-white p-8 transition-all duration-300 hover:shadow-2xl group ${
                     pkg.featured
-                      ? "ring-2 ring-purple-600 shadow-xl lg:scale-105"
+                      ? "ring-2 ring-blue-600 shadow-xl lg:scale-105"
                       : "ring-1 ring-gray-200 hover:-translate-y-1"
                   }`}
                 >
@@ -261,7 +261,7 @@ export default function Index({ title, description }) {
                     />
                     {pkg.featured && (
                       <div className="absolute top-4 right-4">
-                        <span className="inline-flex items-center rounded-full bg-purple-100 px-3 py-1 text-sm font-medium text-purple-800 shadow-lg">
+                        <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800 shadow-lg">
                           Most Popular
                         </span>
                       </div>
@@ -279,7 +279,7 @@ export default function Index({ title, description }) {
                     </div>
 
                     <div className="flex items-baseline gap-x-1">
-                      <span className="text-4xl font-bold text-purple-600">
+                      <span className="text-4xl font-bold text-blue-600">
                         ${pkg.price}
                       </span>
                       <span className="text-sm font-medium text-gray-500">
@@ -291,7 +291,7 @@ export default function Index({ title, description }) {
                       {pkg.features.map((feature) => (
                         <li key={feature} className="flex items-start gap-3">
                           <svg
-                            className="h-5 w-5 flex-shrink-0 text-purple-600"
+                            className="h-5 w-5 flex-shrink-0 text-blue-600"
                             viewBox="0 0 20 20"
                             fill="currentColor"
                           >
@@ -309,8 +309,8 @@ export default function Index({ title, description }) {
                       href="tel:+1-2896339933"
                       className={`block w-full rounded-xl px-4 py-3 text-center text-sm font-semibold transition-all duration-200 ${
                         pkg.featured
-                          ? "bg-purple-600 text-white hover:bg-purple-700 shadow-lg hover:shadow-xl"
-                          : "text-purple-600 ring-1 ring-purple-200 hover:bg-purple-50"
+                          ? "bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl"
+                          : "text-blue-600 ring-1 ring-blue-200 hover:bg-blue-50"
                       }`}
                     >
                       Book Now
@@ -349,7 +349,7 @@ export default function Index({ title, description }) {
                 <div className="mt-8">
                   <a
                     href="tel:+1-2896339933"
-                    className="inline-flex w-full items-center justify-center gap-3 rounded-full bg-purple-600 px-6 py-4 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:bg-purple-700 hover:shadow-xl sm:w-auto"
+                    className="inline-flex w-full items-center justify-center gap-3 rounded-full bg-blue-600 px-6 py-4 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-xl sm:w-auto"
                   >
                     <svg
                       className="h-6 w-6"
@@ -392,7 +392,7 @@ export default function Index({ title, description }) {
         <div className="relative isolate bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
-              <h2 className="text-base font-semibold leading-7 text-purple-600">
+              <h2 className="text-base font-semibold leading-7 text-blue-600">
                 Why Choose Us
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -402,7 +402,7 @@ export default function Index({ title, description }) {
             <div className="mx-auto mt-16 grid max-w-lg gap-8 lg:max-w-none lg:grid-cols-3">
               <div className="flex flex-col">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-purple-600">5+</div>
+                  <div className="text-4xl font-bold text-blue-600">5+</div>
                   <div className="mt-2 text-lg font-semibold text-gray-900">
                     Years Experience
                   </div>
@@ -413,7 +413,7 @@ export default function Index({ title, description }) {
               </div>
               <div className="flex flex-col">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-purple-600">500+</div>
+                  <div className="text-4xl font-bold text-blue-600">500+</div>
                   <div className="mt-2 text-lg font-semibold text-gray-900">
                     Happy Clients
                   </div>
@@ -424,7 +424,7 @@ export default function Index({ title, description }) {
               </div>
               <div className="flex flex-col">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-purple-600">24/7</div>
+                  <div className="text-4xl font-bold text-blue-600">24/7</div>
                   <div className="mt-2 text-lg font-semibold text-gray-900">
                     Support
                   </div>
@@ -451,7 +451,7 @@ export default function Index({ title, description }) {
                 <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
                   <a
                     href="tel:+1-2896339933"
-                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-purple-600 px-8 py-3 text-base font-medium text-white transition-colors duration-300 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-800"
+                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white transition-colors duration-300 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800"
                   >
                     <span className="mr-2">
                       <svg
@@ -488,12 +488,12 @@ class Testimonials extends Component {
     return (
       <div
         id="reviews"
-        className="testimonials-wrapper bg-gradient-to-b from-white to-purple-50 py-16 px-4"
+        className="testimonials-wrapper bg-gradient-to-b from-white to-blue-50 py-16 px-4"
       >
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-purple-800 mb-4">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-blue-800 mb-4">
               What Our Clients Say
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">

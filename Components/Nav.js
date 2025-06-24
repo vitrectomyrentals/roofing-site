@@ -100,7 +100,7 @@ export default function Nav() {
   return (
     <div className="fixed w-full z-50">
       {/* Banner */}
-      <div className="bg-purple-900 text-white">
+      <div className="bg-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 py-2">
           <div className="flex justify-between items-center text-sm">
             <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
@@ -121,7 +121,7 @@ export default function Nav() {
             </div>
             <a
               href="tel:+1-2896339933"
-              className="flex items-center hover:text-purple-200 transition-colors"
+              className="flex items-center hover:text-blue-200 transition-colors"
             >
               <Phone className="w-4 h-4 mr-2" />
               <span>289-633-9933</span>
@@ -141,7 +141,7 @@ export default function Nav() {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
               <Image src="/roof-icons.png" alt="Roof Icon" width={30} height={30} />
-              <span className="text-xl font-semibold text-purple-900">
+              <span className="text-xl font-semibold text-blue-900">
                 Blue Roofs
               </span>
             </Link>
@@ -154,8 +154,8 @@ export default function Nav() {
                   key={link.name}
                   className={`text-sm font-medium transition-colors ${
                     router.pathname === link.path
-                      ? "text-purple-900"
-                      : "text-gray-600 hover:text-purple-900"
+                      ? "text-blue-900"
+                      : "text-gray-600 hover:text-blue-900"
                   }`}
                 >
                   {link.name}
@@ -166,8 +166,8 @@ export default function Nav() {
             {/* CTA Button */}
             <Link
               href="/contact-us"
-              className="hidden lg:flex items-center px-6 py-2 bg-purple-900 text-white 
-                rounded-full font-medium hover:bg-purple-800 transition-colors"
+              className="hidden lg:flex items-center px-6 py-2 bg-blue-900 text-white 
+                rounded-full font-medium hover:bg-blue-800 transition-colors"
             >
               Book Equipment
             </Link>
@@ -201,8 +201,8 @@ export default function Nav() {
                   key={link.name}
                   className={`block px-4 py-2 text-sm font-medium ${
                     router.pathname === link.path
-                      ? "text-purple-900 bg-purple-50"
-                      : "text-gray-600 hover:text-purple-900 hover:bg-purple-50"
+                      ? "text-blue-900 bg-blue-50"
+                      : "text-gray-600 hover:text-blue-900 hover:bg-blue-50"
                   }`}
                 >
                   {link.name}
@@ -210,7 +210,7 @@ export default function Nav() {
               ))}
               <a
                 href="tel:+1-2896339933"
-                className="block px-4 py-3 mt-2 bg-purple-900 text-white text-sm font-medium rounded-md"
+                className="block px-4 py-3 mt-2 bg-blue-900 text-white text-sm font-medium rounded-md"
               >
                 Book Equipment: 289-633-9933
               </a>

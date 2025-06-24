@@ -9,7 +9,7 @@ export default function RecoverySection() {
           <div>
             {/* Title Section */}
             <div className="mb-12">
-              <span className="mb-4 inline-block rounded-full bg-purple-100 px-4 py-1.5 text-sm font-semibold text-purple-800">
+              <span className="mb-4 inline-block rounded-full bg-blue-100 px-4 py-1.5 text-sm font-semibold text-blue-800">
                 Face-Down Recovery Specialists
               </span>
               <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900">
@@ -88,7 +88,7 @@ export default function RecoverySection() {
               ].map((feature, index) => (
                 <div key={index} className="relative">
                   <dt className="flex items-center gap-4">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
                       {feature.icon}
                     </div>
                     <p className="text-lg font-semibold leading-8 text-gray-900">
@@ -118,7 +118,7 @@ export default function RecoverySection() {
                 ].map((term, index) => (
                   <div key={index} className="flex items-center gap-2">
                     <svg
-                      className="h-5 w-5 text-purple-600"
+                      className="h-5 w-5 text-blue-600"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -160,8 +160,8 @@ export default function RecoverySection() {
                 />
               </div>
               {/* Decorative Elements */}
-              <div className="absolute -bottom-6 -right-6 aspect-square w-32 rounded-full bg-purple-600/10 blur-2xl"></div>
-              <div className="absolute -top-6 -left-6 aspect-square w-32 rounded-full bg-purple-600/10 blur-2xl"></div>
+              <div className="absolute -bottom-6 -right-6 aspect-square w-32 rounded-full bg-blue-600/10 blur-2xl"></div>
+              <div className="absolute -top-6 -left-6 aspect-square w-32 rounded-full bg-blue-600/10 blur-2xl"></div>
             </div>
           </div>
         </div>

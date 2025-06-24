@@ -44,7 +44,7 @@ footer {
 }
 
 #nprogress .bar {
-  background: theme("colors.purple.600");
+  background: theme("colors.blue.600");
   position: fixed;
   z-index: 1031;
   top: 0;
@@ -106,7 +106,7 @@ html {
 
 /* Focus Styles */
 :focus {
-  @apply outline-none ring-2 ring-purple-500 ring-opacity-50;
+  @apply outline-none ring-2 ring-blue-500 ring-opacity-50;
 }
 
 /* Custom Scrollbar */
@@ -119,11 +119,11 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-purple-500 rounded-full;
+  @apply bg-blue-500 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-purple-600;
+  @apply bg-blue-600;
 }
 
 /* Add to your globals.css or relevant stylesheet */

@@ -35,7 +35,7 @@
 .logo {
   font-size: 5vmin;
   text-decoration: overline;
-  color: purple;
+  color: blue;
   grid-area: logo;
 }
 
@@ -71,7 +71,7 @@
   .logo {
     font-size: 4vmin;
     text-decoration: overline;
-    color: purple;
+    color: blue;
     grid-area: logo;
   }
 
