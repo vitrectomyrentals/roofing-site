@@ -104,7 +104,7 @@ export default function Nav() {
         <div className="max-w-7xl mx-auto px-4 py-2">
           <div className="flex justify-between items-center text-sm">
             <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-              <span>🇨🇦 Facedown Bed & Chair Rental</span>
+              <span>🇨🇦 Your Roofing Experts</span>
               <span className="hidden sm:inline md:hidden font-bold">
                 {currentAreas.tablet}
               </span>
@@ -169,7 +169,7 @@ export default function Nav() {
               className="hidden lg:flex items-center px-6 py-2 bg-blue-900 text-white 
                 rounded-full font-medium hover:bg-blue-800 transition-colors"
             >
-              Book Equipment
+              Book Free Evaluation
             </Link>
 
             {/* Mobile Menu Button */}
@@ -212,7 +212,7 @@ export default function Nav() {
                 href="tel:+1-2896339933"
                 className="block px-4 py-3 mt-2 bg-blue-900 text-white text-sm font-medium rounded-md"
               >
-                Book Equipment: 289-633-9933
+                Book Free Evaluation: 289-633-9933
               </a>
             </div>
           </div>
