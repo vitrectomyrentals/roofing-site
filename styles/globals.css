@@ -1,0 +1,136 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 min-h-screen;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Layout Management */
+#__next {
+  @apply min-h-screen flex flex-col;
+}
+
+/* Navigation Z-index Management */
+.nav-fixed {
+  @apply fixed top-0 left-0 right-0 z-50;
+}
+
+.nav-banner {
+  @apply fixed top-0 left-0 right-0 z-50;
+}
+
+/* Content Area */
+main {
+  @apply relative z-0 flex-grow;
+}
+
+/* Footer */
+footer {
+  @apply relative z-10;
+}
+
+/* Progress Bar Customization */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: theme("colors.purple.600");
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+
+/* Animation Classes */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}
+
+/* Smooth Scrolling for Anchor Links */
+html {
+  scroll-padding-top: 80px; /* Adjust based on your nav height */
+  scroll-behavior: smooth;
+}
+
+/* Mobile Navigation Adjustments */
+@media (max-width: 768px) {
+  .nav-menu {
+    @apply mt-16; /* Adjust based on your banner + nav height */
+  }
+}
+
+/* Utility Classes */
+.content-safe-area {
+  @apply pt-[calc(64px+2rem)]; /* Adjust based on your nav height */
+}
+
+/* Prevent Content Shift on Loading */
+.no-fouc {
+  @apply opacity-0;
+}
+
+.fouc-ready {
+  @apply opacity-100 transition-opacity duration-300;
+}
+
+/* Image Loading States */
+.image-loading {
+  @apply animate-pulse bg-gray-200;
+}
+
+/* Focus Styles */
+:focus {
+  @apply outline-none ring-2 ring-purple-500 ring-opacity-50;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-500 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-purple-600;
+}
+
+/* Add to your globals.css or relevant stylesheet */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
