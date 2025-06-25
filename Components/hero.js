@@ -108,7 +108,7 @@ export default function Hero() {
                   px-8 py-4 text-lg font-semibold text-blue-900 transition-all duration-300 
                   hover:bg-blue-50 hover:-translate-y-0.5"
               >
-                Bed + Chair Packages
+                See Our Packages
                 <ArrowRight className="ml-3 h-5 w-5" />
               </Link>
               <a
