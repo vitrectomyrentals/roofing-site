@@ -91,7 +91,7 @@ export default function Hero() {
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed">
-              We install, replace, and repair roofs across the GTA with craftsmanship you can trust.
+              We install and repair roofs across the GTA with craftsmanship you can trust.
               <br />
               Do It Right With Blue Roofs.
             </p>
